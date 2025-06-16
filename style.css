@@ -1,0 +1,52 @@
+body{
+    padding:0%;
+    margin: 0%;
+    background-color:rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.page{
+    background-color:darkgrey;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 5%;
+    text-align: center;
+}
+.page h1{
+    font-size: 40px;
+    border-bottom: 1px solid black;
+}
+.page h2{
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.page input{
+    width:80%;
+    padding: 10px;
+    border:1px solid white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border:none;
+    outline: none;
+}
+button{
+    width:35%;
+    padding: 10px;
+    border:1px solid white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border:none;
+    font-size: small;
+    font-weight: bolder;
+}
+#refresh-btn{
+    background-color: #ADFF2F;
+    cursor: pointer;
+}
+#check-btn{
+    background-color: #1da1f2;
+    cursor: pointer;
+}
